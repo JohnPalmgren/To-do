@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="note.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Do It</title>
+    <script src="https://kit.fontawesome.com/5a60fe6182.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <div class="backdrop hidden"></div>
+            <h1>Do It!</h1>
+            <h2>To do app</h2>    
+            <div class="delModal hidden">
+                <p>Are you sure you want to delete </p>
+                <div id=buttons>
+                    <button id="confirmDelete">Yes</button>
+                    <button id="cancelDelete">No</button>
+                </div>
+            </div>
+            <form id="mainBar">
+                <input type="text" id="add-text" value="to do...">
+                <button><i class="fas fa-plus"></i></button>
+            </form>
+            <ul id="items"></ul>
+        </div>
+        <footer>
+            <div>Favicon made by <a href="https://www.flaticon.com/authors/dinosoftlabs" 
+                title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/"
+                title="Flaticon">www.flaticon.com</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
